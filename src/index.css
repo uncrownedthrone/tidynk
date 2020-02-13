@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 18px / 1 sans-serif;
 }
 
 html {
@@ -8,5 +8,77 @@ html {
 
 body {
   margin: 0;
+  color: #f2f5ea;
   min-height: 100%;
+  background-color: #22031f;
+  font-family: 'Varela Round', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  width: auto;
+  height: 45px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #f2f5ea;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ddfdfe;
+  box-shadow: 0px 3px 10px #f2f5ea;
+  color: black;
+  transform: translateY(5px);
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  padding: -5rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+
+.innerBox {
+  display: flex;
+  border: 2px solid #f2f5ea;
+  width: 70%;
+  -moz-box-shadow: inset 0 0 10px #f2f5ea;
+  -webkit-box-shadow: inset 0 0 10px #f2f5ea;
+  box-shadow: inset 0 0 10px #f2f5ea;
+}
+
+.outerBox {
+  width: 25%;
+  display: flex;
+  border: 2px solid #f2f5ea;
+  -moz-box-shadow: inset 0 0 10px #f2f5ea;
+  -webkit-box-shadow: inset 0 0 10px #f2f5ea;
+  box-shadow: inset 0 0 10px #f2f5ea;
 }
