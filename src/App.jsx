@@ -11,8 +11,8 @@ const App = () => {
       <Router>
         <section className="titlePage">
           <header>
-            <h2>Things I Do, </h2>
-            <h2>You Never Knew</h2>
+            <h2>Things I Do, You Never Knew</h2>
+            {/* <h2>You Never Knew</h2> */}
           </header>
         </section>
         <Switch>
