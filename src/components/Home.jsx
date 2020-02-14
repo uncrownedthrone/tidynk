@@ -6,8 +6,10 @@ const Home = () => {
       <section className="outerBox">
         <section className="innerBox">
           <p>
-            I wait a second before hanging up just in case you say "wait" and
-            need my help
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+            sequi voluptates animi numquam sapiente nihil assumenda ea minima
+            cupiditate nisi dolor, quam delectus enim, beatae omnis laudantium
+            exercitationem temporibus dolore?
           </p>
         </section>
       </section>
