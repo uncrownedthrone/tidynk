@@ -25,10 +25,10 @@ const App = () => {
       <section className="button">
         <button>Random</button>
       </section>
-      <footer>
+      <section className="footer">
         <p className="pFooter">#TIDYNK</p>
         <p className="pFooter">@UncrownedThrone</p>
-      </footer>
+      </section>
     </>
   )
 }

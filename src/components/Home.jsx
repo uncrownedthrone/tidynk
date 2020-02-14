@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section>
+    <section className="mainBox">
       <section className="outerBox">
         <section className="innerBox">
           <p>
