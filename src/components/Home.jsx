@@ -14,6 +14,9 @@ const Home = () => {
           </p>
         </section>
       </section>
+      <section className="button">
+        <button>Random</button>
+      </section>
     </section>
   )
 }

@@ -31,9 +31,6 @@ const App = () => {
           <Route path="*" component={NotFound}></Route>
         </Switch>
       </Router>
-      <section className="button">
-        <button>Random</button>
-      </section>
       <section className="footer">
         <p className="pFooter">#TIDYNK</p>
         <p className="pFooter">@UncrownedThrone</p>
